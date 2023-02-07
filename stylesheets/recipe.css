@@ -8,9 +8,10 @@
     margin: auto;
     padding: 10px;
     border-radius: 30px;
+    text-align: center;
 }
 .navigation{
-    width: 18%;
+    width: 20%;
     margin-top: 20px;
 }
 
@@ -36,6 +37,7 @@
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
+    text-align: center;
 }
 
 .ingredients{
@@ -43,6 +45,7 @@
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
+    text-align: center;
 }
 
 .steps{
@@ -50,6 +53,7 @@
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
+    text-align: center;
 }
 
 .instructions{
@@ -60,7 +64,7 @@
 }
 
 .bottom-navigation{
-    width: 4.5%;
+    width: 7%;
     margin-top: 20px;
 }
 
