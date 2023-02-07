@@ -1,15 +1,17 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.navigation{
+.navigation,
+.bottom-navigation{
     background-color: rgb(244, 246, 171);
     border: 1px rgb(198, 205, 106) solid;
-    width: 18%;
     margin: auto;
-    margin-top: 20px;
     padding: 10px;
     border-radius: 30px;
+}
+.navigation{
+    width: 18%;
+    margin-top: 20px;
 }
 
 .container{
@@ -19,57 +21,46 @@
     width: 100%;
 }
 
-.box-1{
+.box-1,
+.ingredients,
+.steps,
+.instructions{
     border: 1px rgb(96, 175, 100) solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.box-1{
     width: 95%;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-    padding: 20px;
 }
 
 .ingredients{
-    border: 1px rgb(96, 175, 100) solid;
     width: 10%;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-    padding: 20px;
 }
 
 .steps{
-    border: 1px rgb(96, 175, 100) solid;
     width: 20%;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-    padding: 20px;
 }
 
 .instructions{
-    border: 1px rgb(96, 175, 100) solid;
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-    padding: 20px;
 }
 
 .bottom-navigation{
-    background-color: rgb(244, 246, 171);
-    border: 1px rgb(198, 205, 106) solid;
     width: 4.5%;
-    margin: auto;
     margin-top: 20px;
-    padding: 10px;
-    border-radius: 30px;
 }
 
